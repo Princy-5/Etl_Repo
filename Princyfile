@@ -1,1 +1,7 @@
-It is sub-Branch. Going to enter the content
+
+def divide(a, b):
+    return a / b  # This will raise ZeroDivisionError if b == 0
+
+result = divide(10, 0)
+print(result)
+
